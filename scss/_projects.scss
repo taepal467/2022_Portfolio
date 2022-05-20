@@ -1,0 +1,71 @@
+
+#projects {
+        padding-bottom: 2rem;
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+        background: $secondary-color;
+        color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+      
+          .projects-title {
+            margin-bottom: 2rem;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: 2px solid black underline;
+            text-transform: capitalize;
+          }
+
+          .project_img {
+          
+            border-top-left-radius: 35px;
+            border-bottom-right-radius: 25px;
+            padding: 10px;
+            width: 250px;
+          }
+
+          .second-img {
+            height: 200px;
+            width: 250px;
+          }
+          
+          .project-link {
+            color: $primary-color;
+            font-weight: 600;
+
+            &:hover {
+              color: $accent-color;
+            }
+          }
+           
+}
+
+.projects-items {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  .project {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+
+    
+    

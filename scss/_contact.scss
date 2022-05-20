@@ -1,0 +1,57 @@
+
+  #contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $secondary-color;
+    color: $primary-color;
+    
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: 2px solid black underline;
+        margin-bottom: 2rem;
+    }
+
+   .contact-list {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 2rem;
+       font-size: 1.5rem;
+   }
+
+   .email-info {
+       color: $primary-color;
+       padding-left: 15px;
+   }
+
+   .social-icons {
+    position: initial;
+    margin-top: 2rem;
+    margin-left: 40px;
+
+     .fa-brands {
+         font-size: 2rem;
+         padding: 0 1rem;
+
+         &:hover {
+             color: $accent-color;
+             cursor: pointer;
+         }
+     }
+       
+   }
+
+   .social-link {
+       color: $primary-color;
+   }
+
+}
+
+
+ 

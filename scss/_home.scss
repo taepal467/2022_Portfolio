@@ -1,0 +1,59 @@
+#home {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+
+
+    .name {
+        font-size: 6rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+        font-family: 'Dancing Script', cursive;
+
+        .last-name {
+            color: $accent-color;
+            font-weight: 700;
+        }
+    }    
+
+}
+
+//Animated Background
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-20deg, $primary-color 50%, black 50%);
+    bottom:0;
+    left:-100%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+  
+  
+
+
+

@@ -1,0 +1,70 @@
+#about {
+    padding-bottom: 2rem;
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: $secondary-color;
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+        
+    p {
+        margin-bottom: 2rem;
+    }
+
+    .about-bio {
+        width: 80%;
+        text-align: left;
+
+        .about-title {
+            padding-bottom: 1rem;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: 2px solid black underline;
+        }
+    }
+
+
+    .skills {
+        font-weight: 600;
+
+        &:hover {
+            color: $accent-color;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.resume-link {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-btn {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $accent-color;
+        cursor: pointer;
+    }
+}
+
+
+
+
