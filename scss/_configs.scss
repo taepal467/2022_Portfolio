@@ -10,7 +10,8 @@ $accent-color: rgb(177, 80, 177);
 }
 
 @mixin transition-ease {
-    transition: all 0.5s ease-in-out;
+       // transition: all 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 
