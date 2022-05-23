@@ -11,7 +11,7 @@
 
 ### Links
 
-- Portfolio URL: [Portfolio](https://your-live-site-url.com)
+- Portfolio URL: [Portfolio](https://taepal467.github.io/Chantae_P/)
 
 ## My process
 I used the Freecodecamp Sass tutorial template to create my portfolio. Instead of using the same design, I changed a few things:
