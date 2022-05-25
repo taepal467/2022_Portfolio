@@ -21,12 +21,11 @@ h3 {
 
 a {
     color: set-text-color($primary-color);
-   
     text-decoration: none;
 }
 
 .about-title {
-    color: $primary-color;
+    color: set-text-color($secondary-color);
 }
 
 header {
@@ -65,7 +64,7 @@ footer {
     text-align: center;
 
     .footer-link {
-        color: $primary-color;
+        color: set-text-color($secondary-color);
 
         &:hover {
             color: $accent-color;
