@@ -1,3 +1,22 @@
+@include media-sm {
+    #about {
+        padding-bottom: 2rem;
+        height: 100%;
+        padding-top: 10vh;
+        overflow: scroll;
+        align-items: center;
+        text-align: center;
+        background: $secondary-color;
+        color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+}
+
 @include media-md {
     .menu-btn {
         visibility: hidden;
@@ -24,6 +43,8 @@
                 transition: none;
             }
         }
+
+      
     }
 
     .about-bio {
