@@ -10,16 +10,22 @@ $accent-color: rgb(177, 80, 177);
 }
 
 @mixin transition-ease {
-      transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 
-//function to change text color
+//function to give appropriate text color
 @function set-text-color($color) {
     @if (lightness($color) > 40%) {
         @return $primary-color;
     } @else {
         @return $secondary-color;
+    }
+}
+
+@mixin media-sm {
+    @media  screen and (max-width: 475px) {
+        @content;
     }
 }
 
